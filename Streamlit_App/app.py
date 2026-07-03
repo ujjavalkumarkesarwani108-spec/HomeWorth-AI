@@ -14,7 +14,8 @@ from utils import (
     format_price,
     property_score,
     investment_rating,
-    market_category
+    market_category,
+    confidence_score
 )
 
 # ============================================================
@@ -646,6 +647,8 @@ if predict_clicked:
 
     st.markdown("<br>", unsafe_allow_html=True)
 
+
+
 # ============================================================
 # RESULT HEADER
 # ============================================================
@@ -710,6 +713,55 @@ with m3:
         "🏷 Market Category",
         category
     )
+
+confidence = confidence_score(score)
+
+st.markdown("### 🎯 Prediction Confidence")
+
+st.progress(confidence / 100)
+
+st.success(f"Model Confidence: {confidence}%")
+
+st.markdown("### 🏆 Property Highlights")
+
+highlights = []
+
+if amenities_score >= 8:
+    highlights.append("⭐ Premium Amenities")
+
+if crime <= 30:
+    highlights.append("🛡 Safe Locality")
+
+if air_quality <= 80:
+    highlights.append("🌿 Healthy Environment")
+
+if schools >= 4:
+    highlights.append("🏫 Excellent Schools Nearby")
+
+if hospitals >= 3:
+    highlights.append("🏥 Good Healthcare Access")
+
+if distance <= 8:
+    highlights.append("📍 Close to City Center")
+
+if parking >= 2:
+    highlights.append("🚗 Spacious Parking")
+
+if has_security:
+    highlights.append("🔒 24×7 Security")
+
+if has_lift:
+    highlights.append("🛗 Lift Available")
+
+col1, col2 = st.columns(2)
+
+for i, item in enumerate(highlights):
+    if i % 2 == 0:
+        col1.success(item)
+    else:
+        col2.success(item)
+
+
 
 st.markdown("<br>", unsafe_allow_html=True)
 
