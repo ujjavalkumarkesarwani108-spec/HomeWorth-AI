@@ -157,22 +157,38 @@ The application will launch automatically in your browser at `http://localhost:8
 
 ---
 
-## 👨‍💻 Project Team
+## 📑 Official Academic Documentation & Deliverables
+
+As part of the academic fulfillment for Dr. A.P.J. Abdul Kalam Technical University (AKTU) and United College of Engineering & Research (UCER), the following complete project artifacts are included in the repository:
+
+- 📊 **[HomeWorth_AI_Presentation.pptx](HomeWorth_AI_Presentation.pptx)**: 15-slide high-impact PowerPoint presentation strictly formatted according to the official summer internship presentation template, featuring institutional headers, empirical model comparison charts, feature importance weights, and system architecture blueprints.
+- 📕 **[HomeWorth_AI_Project_Report.pdf](HomeWorth_AI_Project_Report.pdf)**: 33-page comprehensive mini-project report strictly formatted according to the AKTU / UCER academic typing guidelines (Times New Roman, 3.5cm gutter binding margin, running headers/footers, dynamic two-pass Table of Contents, 6 high-resolution figures, 6 statistical tables, and full appendix source code).
+- 🐍 **`generate_presentation.py`**: Python automation script to programmatically regenerate the 15-slide PowerPoint deck using `python-pptx`.
+- 🐍 **`generate_report.py`**: Python automation script utilizing `reportlab` to compile the 33-page academic report with dynamic two-pass page tracking.
+
+---
+
+## 👨‍💻 Project Team & Academic Credits
 
 - **Ujjaval Kumar Kesarwani**  
-  *B.Tech Computer Science & Engineering (AI & ML)*  
-  *United College of Engineering & Research (UCER)*
+  *University Roll No.: 2400101530154*  
+  *B.Tech Computer Science & Engineering (AI & ML), UCER Prayagraj*
 
 - **Shlok Tiwari**  
-  *B.Tech Computer Science & Engineering (AI & ML)*  
-  *United College of Engineering & Research (UCER)*
+  *University Roll No.: 2400101530134*  
+  *B.Tech Computer Science & Engineering (AI & ML), UCER Prayagraj*
+
+- **Project Supervisor:**  
+  **Dr. Divya Kumar**, *Associate Professor, Dept. of CSE (AI & ML), UCER Prayagraj*
 
 ---
 
 ## 🎓 Academic Host & Internship
 
-**Artificial Intelligence & Machine Learning Summer Internship 2026**  
-**IIHMF** — **Motilal Nehru National Institute of Technology (MNNIT), Prayagraj**
+- **Internship Program:** Artificial Intelligence & Machine Learning Summer Internship 2026  
+- **Host Institution:** IIHMF, Motilal Nehru National Institute of Technology (MNNIT), Prayagraj  
+- **Project Coordinator:** Mr. Arpit Dubey, IIHMF, MNNIT Prayagraj  
+- **Affiliated University:** Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow (Session 2026-27)
 
 ---
 
