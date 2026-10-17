@@ -167,7 +167,7 @@ p_sup.font.bold = True
 p_sup.font.color.rgb = TEXT_DARK
 
 p_dept = tf_right.add_paragraph()
-p_dept.text = "Department of Computer Science and Engineering\n(Artificial Intelligence & Machine Learning)\nUnited College of Engineering & Research (UCER), Prayagraj\nAffiliated to Dr. A.P.J. AKTU, Lucknow (2026-27)"
+p_dept.text = "Associate Professor\nDepartment of Computer Science & Engineering\nMotilal Nehru National Institute of Technology (MNNIT), Prayagraj"
 p_dept.font.name = "Times New Roman"
 p_dept.font.size = Pt(12)
 p_dept.font.color.rgb = TEXT_MUTED
@@ -653,7 +653,7 @@ add_bullet_card(
     "🙏 Institutional Acknowledgments",
     [
         "IIHMF, MNNIT Prayagraj: For hosting the AIML Summer Internship 2026 and providing technical guidance under Project Coordinator Arpit Dubey.",
-        "Dr. Divya Kumar (Project Supervisor): For invaluable mentorship, architectural feedback, and rigorous academic oversight.",
+        "Dr. Divya Kumar (Project Supervisor, MNNIT Prayagraj): For invaluable mentorship, architectural feedback, and rigorous academic oversight.",
         "United College of Engineering & Research (UCER), Prayagraj: Department of Computer Science & Engineering (AI & ML).",
         "Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow: For the comprehensive B.Tech engineering curriculum."
     ]

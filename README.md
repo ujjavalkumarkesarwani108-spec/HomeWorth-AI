@@ -179,7 +179,7 @@ As part of the academic fulfillment for Dr. A.P.J. Abdul Kalam Technical Univers
   *B.Tech Computer Science & Engineering (AI & ML), UCER Prayagraj*
 
 - **Project Supervisor:**  
-  **Dr. Divya Kumar**, *Associate Professor, Dept. of CSE (AI & ML), UCER Prayagraj*
+  **Dr. Divya Kumar**, *Associate Professor, Dept. of CSE, Motilal Nehru National Institute of Technology (MNNIT), Prayagraj*
 
 ---
 
